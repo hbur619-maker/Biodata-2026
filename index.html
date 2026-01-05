@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografi Sintiya Wulan Dari</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background: radial-gradient(circle at top, #b26dff, #6b21a8, #3b0764);
+            overflow-x: hidden;
+            color: #fff;
+        }
+
+        /* BINTANG KECIL ELEGAN */
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background-image:
+                radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(2px 2px at 70% 80%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(2px 2px at 40% 60%, rgba(255,255,255,0.3), transparent),
+                radial-gradient(2px 2px at 80% 20%, rgba(255,255,255,0.4), transparent);
+            animation: starsEase 5s infinite alternate ease-in-out;
+        }
+
+        @keyframes starsEase {
+            0% { opacity: 0.45; }
+            100% { opacity: 0.8; }
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* FOTO DENGAN GLOW ELEGAN (TANPA MUTER) */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .photo-wrapper {
+            width: 230px;
+            height: 230px;
+            margin: auto;
+            position: relative;
+            border-radius: 50%;
+            padding: 12px;
+            background: radial-gradient(circle, rgba(255,255,255,0.8), rgba(200,150,255,0.4), transparent);
+            filter: drop-shadow(0 0 25px rgba(230,200,255,0.6));
+            animation: floaty 4s infinite alternate ease-in-out;
+        }
+
+        @keyframes floaty {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-12px); }
+        }
+
+        .photo-wrapper img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 30px rgba(255,255,255,0.6);
+        }
+
+        header h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 3.2em;
+            margin-top: 25px;
+            text-shadow: 0 0 18px #e9d5ff;
+        }
+
+        /* CARD GLASS AESTHETIC */
+        .card {
+            background: rgba(255,255,255,0.10);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            backdrop-filter: blur(14px);
+            border: 2px solid rgba(255,255,255,0.18);
+            box-shadow: 0 0 25px rgba(255,255,255,0.1);
+            animation: cardFloat 5s infinite alternate ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Border glow lembut (tidak muter) */
+        .card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 20px;
+            padding: 2px;
+            background: linear-gradient(145deg, rgba(233,213,255,0.6), rgba(168,85,247,0.4), rgba(217,70,239,0.5));
+            -webkit-mask: 
+                linear-gradient(#fff 0 0) content-box, 
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0.5;
+        }
+
+        @keyframes cardFloat {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-8px); }
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            text-shadow: 0 0 12px #e9d5ff;
+        }
+
+        li {
+            line-height: 1.7;
+        }
+
+        /* SOSMED BUTTON ELEGAN */
+        .socials {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .socials a {
+            display: inline-block;
+            margin: 10px 12px;
+            padding: 14px 22px;
+            border-radius: 35px;
+            background: linear-gradient(90deg, #c084fc, #a855f7, #d946ef);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 0 18px rgba(230,200,255,0.5);
+            transition: 0.3s ease;
+        }
+
+        .socials a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 28px rgba(240,220,255,0.8);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <div class="container">
+
+        <header>
+            <div class="photo-wrapper">
+                <img src="sintiya.jpg" alt="Foto Sintiya Wulan Dari">
+            </div>
+            <h1>Sintiya Wulan Dari</h1>
+        </header>
+
+        <div class="card">
+            <h2>Biografi</h2>
+            <p>Sintiya Wulan Dari adalah seorang anak yang cukup mandiri. Dia berasal dari lampung gunung batin baru.Dia sering di kenal judes,pemarah.Padahal dia sangat lembut dan baik hati.
+                Sintiya sekolah di SMA Gunung Madu tepat nya di lampung gunung batin udik,terusan nunyai.Sintiya memiliki karakter yang cukup unik. Karakter sintiya tidak bisa di tebak kadang lembut kadang tidak.Sintiya menekuni silat sebagai bentuk seni bela diri sekaligus wadah untuk melatih fokus,disipin,ketenangan,dan kekuatan mental.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>SMA Gunung Madu</li>
+                <li>Jurusan sosiologi dan ekonomi</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Hobi</h2>
+            <ul>
+                <li>silat</li>
+                <li>Menari</li>
+                <li>Jalan jalan</li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <a href="#">https://instagram.com/swintiyaaakkk</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
